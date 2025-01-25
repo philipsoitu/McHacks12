@@ -1,11 +1,25 @@
 import HospitalList from "@/components/HospitalList"
 import DashboardHeader from "@/components/DashboardHeader"
+import { XataClient } from "@/util/xata"
 
-export default function DashboardPage() {
+const xata = new XataClient()
+
+export default async function DashboardPage({ params }) {
+
+  const hospitals = await xata.db.hospitals.getMany();
+
   return (
     <div className="container mx-auto px-4 py-8">
       <DashboardHeader title="Hospital Dashboard" />
       <HospitalList />
+      <ul>
+        {hospitals.map((hospital) => (
+          <li key={hospital.id}>
+            {hospital.name}, {hospital.postal_code}
+          </li>
+        ))}
+      </ul>
     </div>
   )
 }
+
