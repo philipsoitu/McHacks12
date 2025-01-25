@@ -17,7 +17,6 @@ export default function HospitalDashboard({ hospital }) {
       </div>
       <div>
         <ResourceInventory hospitalId={hospital.id} />
-        <StaffAvailability hospitalId={hospital.id} />
         <EmergencyCases hospitalId={hospital.id} />
       </div>
     </div>
