@@ -1,0 +1,19 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_cuajq2mtrfea4ndanpg0",
+    "operations": [
+      {
+        "rename_table": {
+          "to": "hospitals",
+          "from": "Hospitals"
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_cuajq2mtrfea4ndanpg0",
+  "parent": "mig_cuajpt634skj7mihn3q0",
+  "schema": "public",
+  "startedAt": "2025-01-25T19:35:39.214787Z"
+}

@@ -1,0 +1,18 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_cuajq3m34skj7mihn3r0",
+    "operations": [
+      {
+        "sql": {
+          "up": "COMMENT ON COLUMN \"Patients\".\"hospital\" IS '{\"xata.link\":\"hospitals\"}'"
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_cuajq3m34skj7mihn3r0",
+  "parent": "mig_cuajq2mtrfea4ndanpg0",
+  "schema": "public",
+  "startedAt": "2025-01-25T19:35:43.225489Z"
+}

@@ -1,0 +1,24 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_cuak1qflmd4pfs40oggg",
+    "operations": [
+      {
+        "add_column": {
+          "table": "patients",
+          "column": {
+            "name": "first_name",
+            "type": "text",
+            "comment": "",
+            "nullable": true
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_cuak1qflmd4pfs40oggg",
+  "parent": "mig_cuak1g7lmd4pfs40ogfg",
+  "schema": "public",
+  "startedAt": "2025-01-25T19:52:09.975703Z"
+}

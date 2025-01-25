@@ -68,11 +68,11 @@ const ClientInfoForm = () => {
                             <TooltipProvider>
   <Tooltip>
     <TooltipTrigger asChild>
-      <div className="inline-flex rounded-lg overflow-hidden border border-gray-300 shadow-sm">
+      <div className="flex w-full rounded-lg overflow-hidden border border-gray-300 shadow-sm">
         {[1, 2, 3, 4, 5].map((level) => (
           <button
             key={level}
-            className={`px-4 py-2 text-sm font-medium transition-colors ${formData.urgency === level.toString() ? "bg-blue-500 text-white" : "bg-white text-gray-700 hover:bg-gray-100"}`}
+            className={`flex-1 px-4 py-2 text-sm font-medium transition-colors ${formData.urgency === level.toString() ? "bg-blue-500 text-white" : "bg-white text-gray-700 hover:bg-gray-100"}`}
             onClick={() => handleChange({ target: { name: "urgency", value: level.toString() } })}
           >
             {level}

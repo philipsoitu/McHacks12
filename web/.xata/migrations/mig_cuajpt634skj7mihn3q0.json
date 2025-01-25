@@ -1,0 +1,30 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_cuajpt634skj7mihn3q0",
+    "operations": [
+      {
+        "add_column": {
+          "table": "Patients",
+          "column": {
+            "name": "hospital",
+            "type": "text",
+            "comment": "{\"xata.link\":\"Hospitals\"}",
+            "nullable": true,
+            "references": {
+              "name": "hospital_link",
+              "table": "Hospitals",
+              "column": "xata_id",
+              "on_delete": "SET NULL"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_cuajpt634skj7mihn3q0",
+  "parent": "mig_cuajp2etrfea4ndanpf0",
+  "schema": "public",
+  "startedAt": "2025-01-25T19:35:17.117454Z"
+}

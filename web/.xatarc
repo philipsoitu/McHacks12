@@ -1,0 +1,7 @@
+{
+  "databaseURL": "https://McHacks12-dq3nu6.us-east-1.xata.sh/db/Healthline",
+  "codegen": {
+    "output": "util/xata.js",
+    "moduleType": "esm"
+  }
+}
