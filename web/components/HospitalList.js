@@ -1,0 +1,26 @@
+import Link from "next/link"
+
+export default function HospitalList() {
+  // This is placeholder data. In a real application, you would fetch this from your API.
+  const hospitals = [
+    { id: "1", name: "Montreal General Hospital", capacity: 80, occupancy: 65 },
+    { id: "2", name: "Jewish General Hospital", capacity: 90, occupancy: 75 },
+    // Add more hospitals as needed
+  ]
+
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {hospitals.map((hospital) => (
+        <Link href={`/dashboard/${hospital.id}`} key={hospital.id}>
+          <div className="border p-4 rounded-lg hover:shadow-lg transition-shadow">
+            <h2 className="text-xl font-semibold mb-2">{hospital.name}</h2>
+            <p>Capacity: {hospital.capacity}</p>
+            <p>Occupancy: {hospital.occupancy}</p>
+            <p>Occupancy Rate: {Math.round((hospital.occupancy / hospital.capacity) * 100)}%</p>
+          </div>
+        </Link>
+      ))}
+    </div>
+  )
+}
+
