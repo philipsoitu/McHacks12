@@ -1,10 +1,12 @@
 import { notFound } from "next/navigation"
 import HospitalDashboard from "@/components/HospitalDashboard"
 import DashboardHeader from "@/components/DashboardHeader"
+import { XataClient } from "@/util/xata"
 
-export default function HospitalPage({ params }) {
-  // In a real application, you would fetch the hospital data here
-  const hospital = getHospitalData(params.hospitalId)
+const xata = new XataClient()
+
+export default async function HospitalPage({ params }) {
+  const hospital = await xata.db.hospitals.read(params.hospitalId)
 
   if (!hospital) {
     notFound()
@@ -17,15 +19,3 @@ export default function HospitalPage({ params }) {
     </div>
   )
 }
-
-// This is a placeholder function. In a real application, you would
-// fetch this data from your backend or API.
-function getHospitalData(id) {
-  const hospitals = {
-    1: { id: "1", name: "Montreal General Hospital" },
-    2: { id: "2", name: "Jewish General Hospital" },
-    // Add more hospitals as needed
-  }
-  return hospitals[id]
-}
-
