@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -18,7 +19,12 @@ export default function Home() {
           real-time insights and decision-making tools to hospital staff. Easily monitor hospital capacity, 
           resource availability, and patient wait times.
         </p>
-        <Button className="px-6 py-3 text-lg rounded-lg shadow-lg">Get Started</Button>
+        <Link href="/signup">
+          <Button className="px-6 py-3 text-lg rounded-lg shadow-lg">Sign Up</Button>
+        </Link>
+        <p className="text-sm text-gray-600 mt-4">
+          Already have an account? <Link href="/login" className="text-blue-600 hover:underline">Log in</Link>
+        </p>
       </div>
     </div>
   );
