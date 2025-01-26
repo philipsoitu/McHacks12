@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import Image from 'next/image';
+
 
 export default function Navbar() {
   const [user, setUser] = useState(null);
@@ -35,8 +37,8 @@ export default function Navbar() {
       <div className="container mx-auto flex justify-between items-center">
         <Image
           src="/logo.png"
-          width={500}
-          height={500}
+          width={50}
+          height={50}
           alt="Picture of the author"
         />
         <Link href="/" className="text-white text-2xl font-bold">
