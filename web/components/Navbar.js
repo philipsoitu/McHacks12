@@ -46,13 +46,6 @@ export default function Navbar() {
         </Link>
 
         <div className="space-x-4">
-          <Link href="/" className="text-white hover:text-gray-400">
-            Home
-          </Link>
-          <Link href="/about" className="text-white hover:text-gray-400">
-            About
-          </Link>
-
           {user ? (
             <>
               <Link href="/admin" className="text-white hover:text-gray-400">
