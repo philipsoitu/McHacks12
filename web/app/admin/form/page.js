@@ -157,7 +157,7 @@ const ClientInfoForm = () => {
                     <h2 className="text-lg font-bold mb-2">Generated QR Code</h2>
                     <img src={qrCode} alt="QR Code" className="inline-block border p-2 rounded-lg" />
                 </div>
-            )}  
+            )}
         </div>
     );
 };

@@ -5,7 +5,7 @@ import { XataClient } from "@/util/xata"
 const xata = new XataClient()
 
 export default async function DashboardPage({ params }) {
-  const hospitals = await xata.db.hospitals.getMany();
+  const hospitals = await xata.db.hospitals.getAll();
   
   return (
     <div className="container mx-auto px-4 py-8">
