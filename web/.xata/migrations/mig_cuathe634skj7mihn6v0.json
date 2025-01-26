@@ -1,0 +1,25 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_cuathe634skj7mihn6v0",
+    "operations": [
+      {
+        "add_column": {
+          "table": "patients",
+          "column": {
+            "name": "admin",
+            "type": "bool",
+            "comment": "",
+            "default": "'false'",
+            "nullable": true
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_cuathe634skj7mihn6v0",
+  "parent": "mig_cuaq7re34skj7mihn5ng",
+  "schema": "public",
+  "startedAt": "2025-01-26T06:39:53.051962Z"
+}

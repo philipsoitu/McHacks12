@@ -118,6 +118,14 @@ const tables = [
         comment: "",
       },
       {
+        name: "admin",
+        type: "bool",
+        notNull: false,
+        unique: false,
+        defaultValue: "false",
+        comment: "",
+      },
+      {
         name: "email",
         type: "text",
         notNull: false,
