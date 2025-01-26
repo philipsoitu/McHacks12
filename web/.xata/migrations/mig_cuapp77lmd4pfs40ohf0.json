@@ -1,0 +1,24 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_cuapp77lmd4pfs40ohf0",
+    "operations": [
+      {
+        "add_column": {
+          "table": "patients",
+          "column": {
+            "name": "password",
+            "type": "text",
+            "comment": "",
+            "nullable": true
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_cuapp77lmd4pfs40ohf0",
+  "parent": "mig_cuakd17lmd4pfs40oghg",
+  "schema": "public",
+  "startedAt": "2025-01-26T02:23:25.1204Z"
+}

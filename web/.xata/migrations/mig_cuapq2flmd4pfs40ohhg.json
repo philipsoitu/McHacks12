@@ -1,0 +1,24 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_cuapq2flmd4pfs40ohhg",
+    "operations": [
+      {
+        "add_column": {
+          "table": "patients",
+          "column": {
+            "name": "email",
+            "type": "text",
+            "comment": "",
+            "nullable": true
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_cuapq2flmd4pfs40ohhg",
+  "parent": "mig_cuapp77lmd4pfs40ohf0",
+  "schema": "public",
+  "startedAt": "2025-01-26T02:25:14.629399Z"
+}

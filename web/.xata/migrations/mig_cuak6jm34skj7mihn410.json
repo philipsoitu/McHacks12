@@ -1,0 +1,25 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_cuak6jm34skj7mihn410",
+    "operations": [
+      {
+        "add_column": {
+          "table": "patients",
+          "column": {
+            "name": "position",
+            "type": "int",
+            "unique": true,
+            "comment": "",
+            "default": "'-1'"
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_cuak6jm34skj7mihn410",
+  "parent": "mig_cuak3lu34skj7mihn3ug",
+  "schema": "public",
+  "startedAt": "2025-01-25T20:02:22.940218Z"
+}
