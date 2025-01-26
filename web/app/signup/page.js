@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { Button } from '@/components/ui/button';
 
 export default function SignUpPage() {
   const [email, setEmail] = useState('');
@@ -10,6 +11,7 @@ export default function SignUpPage() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const router = useRouter();
+  
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -34,8 +36,8 @@ export default function SignUpPage() {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-50">
-      <div className="w-full max-w-md p-6 bg-white shadow-lg rounded-lg">
+    <div className="min-h-screen w-full flex items-center justify-center"style={{ backgroundColor: '#F1F8F9' }}>
+      <div className="w-full max-w-md p-6 shadow-lg rounded-lg" style={{ backgroundColor: '#FFFFFF' }}>
         <h1 className="text-2xl font-bold text-center mb-6">Sign Up</h1>
         {error && (
           <div className="text-red-500 text-center mb-4">
@@ -61,7 +63,7 @@ export default function SignUpPage() {
               className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
-  
+
           {/* First Name Field */}
           <div>
             <label
@@ -80,7 +82,7 @@ export default function SignUpPage() {
               className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
-  
+
           {/* Last Name Field */}
           <div>
             <label
@@ -99,7 +101,7 @@ export default function SignUpPage() {
               className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
-  
+
           {/* Password Field */}
           <div>
             <label
@@ -118,19 +120,18 @@ export default function SignUpPage() {
               className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
-  
+
           {/* Submit Button */}
           <div>
-            <button
-              type="submit"
-              className="w-full py-2 px-4 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
-            >
-              Sign Up
-            </button>
+          <Button
+                type="submit"
+                className="w-full bg-blue-800 text-white py-2 rounded-lg hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                style={{ backgroundColor: '#107DA5', color: '#FFFFFF' }} // Inline style as a fallback
+              >Sign Up</Button>
           </div>
         </form>
       </div>
     </div>
   );
-  
+
 }

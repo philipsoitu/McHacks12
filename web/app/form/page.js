@@ -164,7 +164,10 @@ const ClientInfoForm = () => {
                         <div className="text-center">
                                                         
                         </div>
-                        <Button type="submit" className="w-full" onClick={() => getData}>Submit</Button>
+                        <Button
+                type="submit"
+                className="w-full bg-blue-800 text-white py-2 rounded-lg hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                style={{ backgroundColor: '#107DA5', color: '#FFFFFF' }}  onClick={() => getData}>Submit</Button>
                     </form>
                 </CardContent>
             </Card>

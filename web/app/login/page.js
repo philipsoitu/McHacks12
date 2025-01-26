@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 
 export default function LoginPage() {
   const [email, setEmail] = useState('');
@@ -33,7 +34,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-50">
+    <div className="flex justify-center items-center h-screen bg-gray-50" style={{ backgroundColor: '#F1F8F9'}}>
       <Card className="w-full max-w-md p-6 shadow-lg rounded-lg bg-white">
         <CardContent>
           <h1 className="text-2xl font-bold text-center mb-6">Login</h1>
@@ -83,12 +84,14 @@ export default function LoginPage() {
   
             {/* Submit Button */}
             <div>
-              <button
+            <Button
                 type="submit"
-                className="w-full py-2 px-4 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full bg-blue-800 text-white py-2 rounded-lg hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                style={{ backgroundColor: '#107DA5', color: '#FFFFFF' }} // Inline style as a fallback
               >
-                Login
-              </button>
+                Log In
+              </Button>
+              
             </div>
           </form>
         </CardContent>
