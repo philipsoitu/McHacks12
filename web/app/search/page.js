@@ -47,7 +47,7 @@ const ClientInfoForm = () => {
 
     return (
         <div className="flex justify-center items-center h-screen">
-            <Card className="w-full max-w-lg p-4 shadow-lg">
+            <Card className="w-full max-w-lg p-4 shadow-lg" style={{ backgroundColor: '#FFFFFF' }}>
                 <CardContent>
                     <h1 className="text-xl font-bold mb-4">Hospital Search</h1>
                     <form onSubmit={handleSubmit}>

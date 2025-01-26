@@ -37,7 +37,7 @@ export default function SignUpPage() {
 
   return (
     <div className="flex justify-center items-center h-screen bg-gray-50">
-      <div className="w-full max-w-md p-6 bg-white shadow-lg rounded-lg">
+      <div className="w-full max-w-md p-6 bg-white shadow-lg rounded-lg" style={{ backgroundColor: '#FFFFFF' }} >
         <h1 className="text-2xl font-bold text-center mb-6">Sign Up</h1>
         {error && (
           <div className="text-red-500 text-center mb-4">
