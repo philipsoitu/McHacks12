@@ -107,10 +107,6 @@ const tables = [
         name: "_pgroll_new_Patients_xata_id_key",
         columns: ["xata_id"],
       },
-      patients__pgroll_new_position_key: {
-        name: "patients__pgroll_new_position_key",
-        columns: ["position"],
-      },
     },
     columns: [
       {
@@ -174,7 +170,7 @@ const tables = [
         name: "position",
         type: "int",
         notNull: true,
-        unique: true,
+        unique: false,
         defaultValue: "'-1'::integer",
         comment: "",
       },

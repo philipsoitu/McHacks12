@@ -1,0 +1,21 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_cuaq7re34skj7mihn5ng",
+    "operations": [
+      {
+        "drop_constraint": {
+          "up": "\"position\"",
+          "down": "\"position\"",
+          "name": "patients__pgroll_new_position_key",
+          "table": "patients"
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_cuaq7re34skj7mihn5ng",
+  "parent": "mig_cuapq2flmd4pfs40ohhg",
+  "schema": "public",
+  "startedAt": "2025-01-26T02:54:38.759946Z"
+}

@@ -22,8 +22,6 @@ const ClientInfoForm = () => {
 
     const [qrCode, setQrCode] = useState('');
 
-    const temp = "rec_cuam485qrj62jjc8c70g";
-
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({
@@ -44,8 +42,7 @@ const ClientInfoForm = () => {
 
         try {
             // Generate QR code
-            // const qrData = JSON.stringify(formData);
-            const qrData = temp
+            const qrData = JSON.stringify(formData);
             const qrCodeUrl = await QRCode.toDataURL(qrData);
             setQrCode(qrCodeUrl);
             console.log('Form submitted:', formData);

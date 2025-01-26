@@ -8,8 +8,8 @@ export default function Home() {
       <Button>Admin</Button>
 
       <Button>User</Button>
+      
 
     </div>
   );
 }
-
