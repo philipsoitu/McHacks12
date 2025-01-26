@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import Image from 'next/image';
 
-
 export default function Navbar() {
   const [user, setUser] = useState(null);
 
@@ -35,14 +34,14 @@ export default function Navbar() {
   return (
     <nav className="bg-logo_bg p-4 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
-        <Image
-          src="/logo.png"
-          width={100}
-          height={100}
-          alt="Picture of the author"
-        />
-        <Link href="/" className="text-white text-2xl font-bold">
-          Healthline
+        <Link href="/">
+          <Image
+            src="/logo.png"
+            width={100}
+            height={100}
+            alt="Picture of the author"
+            className="cursor-pointer"
+          />
         </Link>
 
         <div className="space-x-4">
