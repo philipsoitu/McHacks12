@@ -5,22 +5,17 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import {
-    Tooltip,
-    TooltipContent,
-    TooltipProvider,
-    TooltipTrigger,
-} from "@/components/ui/tooltip"
+import {Tooltip, TooltipContent, TooltipProvider,TooltipTrigger} from "@/components/ui/tooltip"
 import { Select, SelectTrigger, SelectContent, SelectItem } from "@/components/ui/select";
+
 
 const ClientInfoForm = () => {
     const [formData, setFormData] = useState({
-        postal_code: '',
+        first_name: '',
         last_name: '',
         RAMQ: '',
         urgency: '',
         description: '',
-        resource: '',   
     });
 
     const handleChange = (e) => {
@@ -49,21 +44,41 @@ const ClientInfoForm = () => {
         <div className="flex justify-center items-center h-screen">
             <Card className="w-full max-w-lg p-4 shadow-lg">
                 <CardContent>
-                    <h1 className="text-xl font-bold mb-4">Hospital Search</h1>
+                    <h1 className="text-xl font-bold mb-4">Client Information Form</h1>
                     <form onSubmit={handleSubmit}>
                         <div className="mb-4">
-                            <label className="block text-sm font-medium mb-1" htmlFor="postal_code">Postal Code</label>
+                            <label className="block text-sm font-medium mb-1" htmlFor="first_name">First Name</label>
                             <Input
-                                id="postal_code"
-                                name="postal_code"
+                                id="first_name"
+                                name="first_name"
                                 type="text"
-                                placeholder="Enter postal code"
-                                value={formData.postal_code}
+                                placeholder="Enter first name"
+                                value={formData.first_name}
                                 onChange={handleChange}
                             />
                         </div>
-                    
-
+                        <div className="mb-4">
+                            <label className="block text-sm font-medium mb-1" htmlFor="last_name">Last Name</label>
+                            <Input
+                                id="last_name"
+                                name="last_name"
+                                type="text"
+                                placeholder="Enter last name"
+                                value={formData.last_name}
+                                onChange={handleChange}
+                            />
+                        </div>
+                        <div className="mb-4">
+                            <label className="block text-sm font-medium mb-1" htmlFor="RAMQ">RAMQ </label>
+                            <Input
+                                id="RAMQ"
+                                name="RAMQ"
+                                type="text"
+                                placeholder="Enter RAMQ number"
+                                value={formData.RAMQ}
+                                onChange={handleChange}
+                            />
+                        </div>
                         <div className="mb-4">
                             <label className="block text-sm font-medium mb-1" htmlFor="urgency"> Urgency </label>
                             <TooltipProvider>
