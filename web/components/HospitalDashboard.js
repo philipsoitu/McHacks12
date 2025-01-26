@@ -1,5 +1,5 @@
 import CameraFeed from "./CameraFeed"
-import ResourceInventory from "./ResourceInventory"
+import PatientList from "./PatientList"
 
 export default function HospitalDashboard({ hospital }) {
   return (
@@ -12,7 +12,7 @@ export default function HospitalDashboard({ hospital }) {
         </div>
       </div>
       <div>
-        <ResourceInventory hospitalId={hospital.id} />
+        <PatientList hospitalId={hospital.id} />
       </div>
     </div>
   )
