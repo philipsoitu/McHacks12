@@ -25,6 +25,10 @@ export default function Home() {
         <p className="text-sm text-gray-600 mt-4">
           Already have an account? <Link href="/login" className="text-blue-600 hover:underline">Log in</Link>
         </p>
+        <p className="text-sm text-gray-600 mt-4">
+          <Link href="/search" className="text-blue-600 hover:underline">or Search without signing in </Link>
+        </p>
+        
       </div>
     </div>
   );
