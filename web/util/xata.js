@@ -30,6 +30,22 @@ const tables = [
         comment: "",
       },
       {
+        name: "postal_code",
+        type: "text",
+        notNull: true,
+        unique: false,
+        defaultValue: null,
+        comment: "",
+      },
+      {
+        name: "resources",
+        type: "json",
+        notNull: false,
+        unique: false,
+        defaultValue: null,
+        comment: "",
+      },
+      {
         name: "xata_createdat",
         type: "datetime",
         notNull: true,
@@ -91,6 +107,10 @@ const tables = [
         name: "_pgroll_new_Patients_xata_id_key",
         columns: ["xata_id"],
       },
+      patients__pgroll_new_position_key: {
+        name: "patients__pgroll_new_position_key",
+        columns: ["position"],
+      },
     },
     columns: [
       {
@@ -98,6 +118,14 @@ const tables = [
         type: "text",
         notNull: false,
         unique: true,
+        defaultValue: null,
+        comment: "",
+      },
+      {
+        name: "email",
+        type: "text",
+        notNull: false,
+        unique: false,
         defaultValue: null,
         comment: "",
       },
@@ -132,6 +160,22 @@ const tables = [
         notNull: false,
         unique: false,
         defaultValue: null,
+        comment: "",
+      },
+      {
+        name: "password",
+        type: "text",
+        notNull: false,
+        unique: false,
+        defaultValue: null,
+        comment: "",
+      },
+      {
+        name: "position",
+        type: "int",
+        notNull: true,
+        unique: true,
+        defaultValue: "'-1'::integer",
         comment: "",
       },
       {
