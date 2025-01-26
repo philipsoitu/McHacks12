@@ -1,14 +1,14 @@
-import React, { useState } from "react"
+// import React, { useState } from "react"
 import { QrReader } from "react-qr-reader"
 import CameraFeed from "./CameraFeed"
 import PatientList from "./PatientList"
 import QRCodeReader from "@/components/QRCodeReader";
 
 export default function HospitalDashboard({ hospital }) {
-  const [data, setData] = useState("No result")
-  const [startScan, setStartScan] = useState(false)
-  const [loadingScan, setLoadingScan] = useState(false)
-  const [permissionDenied, setPermissionDenied] = useState(false)
+  // const [data, setData] = useState("No result")
+  // const [startScan, setStartScan] = useState(false)
+  // const [loadingScan, setLoadingScan] = useState(false)
+  // const [permissionDenied, setPermissionDenied] = useState(false)
 
   const handleScan = async () => {
     setStartScan(true)
@@ -36,7 +36,7 @@ export default function HospitalDashboard({ hospital }) {
         <CameraFeed id="1" name="Waiting Area 1" />
       </div>
 
-      <div className="p-6">
+      {/* <div className="p-6">
         <h1 className="text-2xl font-bold mb-6">Admin Assign Page</h1>
         <div className="p-6 max-w-md mx-auto">
           <h1 className="text-2xl font-bold mb-4">QR Code Scanner</h1>
@@ -83,7 +83,7 @@ export default function HospitalDashboard({ hospital }) {
             <span className="font-semibold">Scanned Data:</span> {data}
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
