@@ -33,10 +33,10 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-gray-800 p-4 shadow-lg">
+    <nav className="bg-logo_bg p-4 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
         <Image
-          src="/logo.png"
+          src="/logo.svg"
           width={50}
           height={50}
           alt="Picture of the author"
