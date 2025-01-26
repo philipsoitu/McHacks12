@@ -5,8 +5,9 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import {Tooltip, TooltipContent, TooltipProvider,TooltipTrigger} from "@/components/ui/tooltip"
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import { Select, SelectTrigger, SelectContent, SelectItem } from "@/components/ui/select";
+import QRCode from 'qrcode';
 
 
 const ClientInfoForm = () => {
@@ -15,8 +16,13 @@ const ClientInfoForm = () => {
         last_name: '',
         RAMQ: '',
         urgency: '',
+        resource: '',
         description: '',
     });
+
+    const [qrCode, setQrCode] = useState('');
+
+    const temp = "rec_cuam485qrj62jjc8c70g";
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -33,14 +39,24 @@ const ClientInfoForm = () => {
         });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log('Form submitted:', formData);
-        // You can add API calls here to send the data to the server
+
+        try {
+            // Generate QR code
+            // const qrData = JSON.stringify(formData);
+            const qrData = temp
+            const qrCodeUrl = await QRCode.toDataURL(qrData);
+            setQrCode(qrCodeUrl);
+            console.log('Form submitted:', formData);
+        } catch (err) {
+            console.error('Error generating QR Code:', err);
+        }
     };
-    
+
 
     return (
+
         <div className="flex justify-center items-center h-screen">
             <Card className="w-full max-w-lg p-4 shadow-lg">
                 <CardContent>
@@ -135,10 +151,16 @@ const ClientInfoForm = () => {
                                 onChange={handleChange}
                             />
                         </div>
-                        <Button type="submit" className="w-full">Submit</Button>
+                        <Button type="submit" className="w-full" >Submit</Button>
                     </form>
                 </CardContent>
             </Card>
+            {qrCode && (
+                <div className="text-center">
+                    <h2 className="text-lg font-bold mb-2">Generated QR Code</h2>
+                    <img src={qrCode} alt="QR Code" className="inline-block border p-2 rounded-lg" />
+                </div>
+            )}  
         </div>
     );
 };
