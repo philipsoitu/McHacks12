@@ -115,6 +115,12 @@ const ClientInfoForm = () => {
                                                 <button
                                                     key={level}
                                                     className={`flex-1 px-4 py-2 text-sm font-medium transition-colors ${formData.urgency === level.toString() ? "bg-blue-500 text-white" : "bg-white text-gray-700 hover:bg-gray-100"}`}
+                                                    style={{
+                                                        backgroundColor:
+                                                          formData.urgency === level.toString() ? "#0E7CA4" : "#FFFFFF",
+                                                        color: formData.urgency === level.toString() ? "#FFFFFF" : "#333333",
+                                                        borderColor: "#D1D5DB", // Tailwind's gray-300
+                                                      }}
                                                     onClick={() => handleChange({ target: { name: "urgency", value: level.toString() } })
                                                 }
                                                 >

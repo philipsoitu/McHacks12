@@ -2,18 +2,34 @@ import Link from "next/link";
 
 export default function HospitalList({ hospitals }) {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
       {hospitals.map((hospital) => (
         <Link href={`/dashboard/${hospital.id}`} key={hospital.id}>
-          <div className="border p-4 rounded-lg hover:shadow-lg transition-shadow">
-            <h2 className="text-xl font-semibold mb-2">{hospital.name}</h2>
-            <p>Postal Code: {hospital.postal_code}</p>
-            <p>Estimated Waiting Time: {hospital.resources["Estimated Waiting Time"]}</p>
-            <p>Avg Wait Room: {hospital.resources["Avg Wait Room"]}</p>
-            <p>Avg Wait Stretcher: {hospital.resources["Avg Wait Stretcher"]}</p>
-            <p>Occupancy Rate: {hospital.resources["Occupancy Rate"]}</p>
-            <p>People Waiting: {hospital.resources["People Waiting"]}</p>
-            <p>Total People in ER: {hospital.resources["Total People in ER"]}</p>
+          <div className="border p-6 rounded-2xl bg-white hover:shadow-xl transition-shadow transform hover:-translate-y-1" style = {{backgroundColor: '#FFFFFF'}}>
+            <h2 className="text-2xl font-bold mb-4 text-gray-800">{hospital.name}</h2>
+            <div className="space-y-2 text-gray-600">
+              <p>
+                <span className="font-semibold">Postal Code:</span> {hospital.postal_code}
+              </p>
+              <p>
+                <span className="font-semibold">Estimated Waiting Time:</span> {hospital.resources["Estimated Waiting Time"]}
+              </p>
+              <p>
+                <span className="font-semibold">Avg Wait Room:</span> {hospital.resources["Avg Wait Room"]}
+              </p>
+              <p>
+                <span className="font-semibold">Avg Wait Stretcher:</span> {hospital.resources["Avg Wait Stretcher"]}
+              </p>
+              <p>
+                <span className="font-semibold">Occupancy Rate:</span> {hospital.resources["Occupancy Rate"]}
+              </p>
+              <p>
+                <span className="font-semibold">People Waiting:</span> {hospital.resources["People Waiting"]}
+              </p>
+              <p>
+                <span className="font-semibold">Total People in ER:</span> {hospital.resources["Total People in ER"]}
+              </p>
+            </div>
           </div>
         </Link>
       ))}
