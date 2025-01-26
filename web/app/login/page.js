@@ -34,7 +34,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-50" style={{ backgroundColor: '#F1F8F9'}}>
+    <div className="flex justify-center items-center h-screen bg-gray-50" >
       <Card className="w-full max-w-md p-6 shadow-lg rounded-lg bg-white">
         <CardContent>
           <h1 className="text-2xl font-bold text-center mb-6">Login</h1>
