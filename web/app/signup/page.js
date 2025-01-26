@@ -36,8 +36,8 @@ export default function SignUpPage() {
   };
 
   return (
-    <div className="min-h-screen w-full flex items-center justify-center"style={{ backgroundColor: '#F1F8F9' }}>
-      <div className="w-full max-w-md p-6 shadow-lg rounded-lg" style={{ backgroundColor: '#FFFFFF' }}>
+    <div className="flex justify-center items-center h-screen bg-gray-50">
+      <div className="w-full max-w-md p-6 bg-white shadow-lg rounded-lg" style={{ backgroundColor: '#FFFFFF' }} >
         <h1 className="text-2xl font-bold text-center mb-6">Sign Up</h1>
         {error && (
           <div className="text-red-500 text-center mb-4">
@@ -123,7 +123,7 @@ export default function SignUpPage() {
 
           {/* Submit Button */}
           <div>
-          <Button
+<Button
                 type="submit"
                 className="w-full bg-blue-800 text-white py-2 rounded-lg hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 style={{ backgroundColor: '#107DA5', color: '#FFFFFF' }} // Inline style as a fallback

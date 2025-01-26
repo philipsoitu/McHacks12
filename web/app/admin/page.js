@@ -10,6 +10,11 @@ export default function main() {
         </Link>
       </li>
       <li>
+        <Link href="/admin/assign" className="text-white hover:text-gray-400">
+          Assign
+        </Link>
+      </li>
+      <li>
         <Link href="/admin/form" className="text-white hover:text-gray-400">
           Form
         </Link>

@@ -43,11 +43,11 @@ const ClientInfoForm = () => {
         console.log('Form submitted:', formData);
         // You can add API calls here to send the data to the server
     };
-    
+
 
     return (
         <div className="flex justify-center items-center h-screen">
-            <Card className="w-full max-w-lg p-4 shadow-lg">
+            <Card className="w-full max-w-lg p-4 shadow-lg" style={{ backgroundColor: '#FFFFFF' }}>
                 <CardContent>
                     <h1 className="text-xl font-bold mb-4">Hospital Search</h1>
                     <form onSubmit={handleSubmit}>
@@ -74,6 +74,12 @@ const ClientInfoForm = () => {
                                                 <button
                                                     key={level}
                                                     className={`flex-1 px-4 py-2 text-sm font-medium transition-colors ${formData.urgency === level.toString() ? "bg-blue-500 text-white" : "bg-white text-gray-700 hover:bg-gray-100"}`}
+                                                    style={{
+                                                        backgroundColor:
+                                                          formData.urgency === level.toString() ? "#107DA5" : "#FFFFFF",
+                                                        color: formData.urgency === level.toString() ? "#FFFFFF" : "#333333",
+                                                        borderColor: "#D1D5DB", // Tailwind's gray-300
+                                                      }}
                                                     onClick={() => handleChange({ target: { name: "urgency", value: level.toString() } })}
                                                 >
                                                     {level}
