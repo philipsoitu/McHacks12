@@ -1,0 +1,1272 @@
+[
+    {
+        "Hospital Name": "Centre de santé et de services sociaux du Granit",
+        "Postal Code": "G6B 1A5",
+        "Estimated Waiting Time": "03:17",
+        "People Waiting": "6",
+        "Total People in ER": "10",
+        "Occupancy Rate": "60%",
+        "Avg Wait Room": "3:24",
+        "Avg Wait Stretcher": "10:46"
+    },
+    {
+        "Hospital Name": "Centre hospitalier de l'Université de Montréal",
+        "Postal Code": "H2X 0A9",
+        "Estimated Waiting Time": "10:20",
+        "People Waiting": "22",
+        "Total People in ER": "98",
+        "Occupancy Rate": "133%",
+        "Avg Wait Room": "6:45",
+        "Avg Wait Stretcher": "22:35"
+    },
+    {
+        "Hospital Name": "Centre hospitalier de l'Université Laval",
+        "Postal Code": "G1V 4G2",
+        "Estimated Waiting Time": "05:14",
+        "People Waiting": "17",
+        "Total People in ER": "64",
+        "Occupancy Rate": "93%",
+        "Avg Wait Room": "4:45",
+        "Avg Wait Stretcher": "12:08"
+    },
+    {
+        "Hospital Name": "Centre hospitalier de St.Mary",
+        "Postal Code": "H3T 1M5",
+        "Estimated Waiting Time": "05:59",
+        "People Waiting": "11",
+        "Total People in ER": "47",
+        "Occupancy Rate": "136%",
+        "Avg Wait Room": "4:51",
+        "Avg Wait Stretcher": "20:22"
+    },
+    {
+        "Hospital Name": "Centre hospitalier régional du Grand-Portage",
+        "Postal Code": "G5R 2A4",
+        "Estimated Waiting Time": "02:17",
+        "People Waiting": "4",
+        "Total People in ER": "10",
+        "Occupancy Rate": "44%",
+        "Avg Wait Room": "3:08",
+        "Avg Wait Stretcher": "9:09"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux Avellin-Dalcourt",
+        "Postal Code": "J5V 1V3",
+        "Estimated Waiting Time": "03:41",
+        "People Waiting": "8",
+        "Total People in ER": "12",
+        "Occupancy Rate": "50%",
+        "Avg Wait Room": "2:07",
+        "Avg Wait Stretcher": "9:33"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux Chauveau",
+        "Postal Code": "G2A 2T7",
+        "Estimated Waiting Time": "03:25",
+        "People Waiting": "13",
+        "Total People in ER": "26",
+        "Occupancy Rate": "40%",
+        "Avg Wait Room": "2:16",
+        "Avg Wait Stretcher": "3:40"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux Christ-Roi",
+        "Postal Code": "J3T 1S4",
+        "Estimated Waiting Time": "01:25",
+        "People Waiting": "2",
+        "Total People in ER": "7",
+        "Occupancy Rate": "33%",
+        "Avg Wait Room": "3:57",
+        "Avg Wait Stretcher": "6:47"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux d'Argenteuil",
+        "Postal Code": "J8H 4C7",
+        "Estimated Waiting Time": "05:58",
+        "People Waiting": "16",
+        "Total People in ER": "32",
+        "Occupancy Rate": "188%",
+        "Avg Wait Room": "2:49",
+        "Avg Wait Stretcher": "25:34"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de Baie-Saint-Paul",
+        "Postal Code": "G3Z 0K3",
+        "Estimated Waiting Time": "01:01",
+        "People Waiting": "0",
+        "Total People in ER": "3",
+        "Occupancy Rate": "25%",
+        "Avg Wait Room": "3:21",
+        "Avg Wait Stretcher": "25:04"
+    },
+    {
+        "Hospital Name": "Ensemble du Québec",
+        "Postal Code": "N/A",
+        "Estimated Waiting Time": "01:44",
+        "People Waiting": "1257",
+        "Total People in ER": "3666",
+        "Occupancy Rate": "102%",
+        "Avg Wait Room": "4:49",
+        "Avg Wait Stretcher": "18:05"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de Fermont",
+        "Postal Code": "G0G 1J0",
+        "Estimated Waiting Time": "03:22",
+        "People Waiting": "7",
+        "Total People in ER": "9",
+        "Occupancy Rate": "0%",
+        "Avg Wait Room": "4:44",
+        "Avg Wait Stretcher": "4:00"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de Forestville",
+        "Postal Code": "G0T 1E0",
+        "Estimated Waiting Time": "00:39",
+        "People Waiting": "1",
+        "Total People in ER": "4",
+        "Occupancy Rate": "0%",
+        "Avg Wait Room": "3:03",
+        "Avg Wait Stretcher": "19:48"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de Fortierville",
+        "Postal Code": "G0S 1J0",
+        "Estimated Waiting Time": "currently not available",
+        "People Waiting": "0",
+        "Total People in ER": "0",
+        "Occupancy Rate": "0%",
+        "Avg Wait Room": "01:20",
+        "Avg Wait Stretcher": "3:35"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de Grande-Vallée",
+        "Postal Code": "G0E 1K0",
+        "Estimated Waiting Time": "01:10",
+        "People Waiting": "1",
+        "Total People in ER": "1",
+        "Occupancy Rate": "0%",
+        "Avg Wait Room": "2:21",
+        "Avg Wait Stretcher": "00:00"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de la Basse-Côte-Nord",
+        "Postal Code": "G0G 1W0",
+        "Estimated Waiting Time": "01:01",
+        "People Waiting": "0",
+        "Total People in ER": "0",
+        "Occupancy Rate": "0%",
+        "Avg Wait Room": "2:27",
+        "Avg Wait Stretcher": "3:36"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de la Minganie",
+        "Postal Code": "G0G 1P0",
+        "Estimated Waiting Time": "01:11",
+        "People Waiting": "0",
+        "Total People in ER": "0",
+        "Occupancy Rate": "0%",
+        "Avg Wait Room": "5:31",
+        "Avg Wait Stretcher": "10:58"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de la MRC de Coaticook",
+        "Postal Code": "J1A 1W3",
+        "Estimated Waiting Time": "00:50",
+        "People Waiting": "0",
+        "Total People in ER": "0",
+        "Occupancy Rate": "0%",
+        "Avg Wait Room": "2:03",
+        "Avg Wait Stretcher": "2:08"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de La Sarre",
+        "Postal Code": "J9Z 2X7",
+        "Estimated Waiting Time": "01:19",
+        "People Waiting": "2",
+        "Total People in ER": "9",
+        "Occupancy Rate": "160%",
+        "Avg Wait Room": "5:11",
+        "Avg Wait Stretcher": "17:01"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de Mansfield-et-Pontefact",
+        "Postal Code": "J0X 1R0",
+        "Estimated Waiting Time": "00:41",
+        "People Waiting": "1",
+        "Total People in ER": "2",
+        "Occupancy Rate": "0%",
+        "Avg Wait Room": "2:34",
+        "Avg Wait Stretcher": "00:00"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de Memphrémagog",
+        "Postal Code": "J1X 3X3",
+        "Estimated Waiting Time": "04:14",
+        "People Waiting": "7",
+        "Total People in ER": "20",
+        "Occupancy Rate": "82%",
+        "Avg Wait Room": "6:51",
+        "Avg Wait Stretcher": "8:34"
+    },
+    {
+        "Hospital Name": "Ensemble du Québec",
+        "Postal Code": "N/A",
+        "Estimated Waiting Time": "01:44",
+        "People Waiting": "1257",
+        "Total People in ER": "3666",
+        "Occupancy Rate": "102%",
+        "Avg Wait Room": "4:49",
+        "Avg Wait Stretcher": "18:05"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de Port-Cartier",
+        "Postal Code": "G5B 2W9",
+        "Estimated Waiting Time": "01:24",
+        "People Waiting": "2",
+        "Total People in ER": "9",
+        "Occupancy Rate": "100%",
+        "Avg Wait Room": "7:19",
+        "Avg Wait Stretcher": "12:27"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de Rivière-Rouge",
+        "Postal Code": "J0T 1T0",
+        "Estimated Waiting Time": "02:27",
+        "People Waiting": "3",
+        "Total People in ER": "9",
+        "Occupancy Rate": "60%",
+        "Avg Wait Room": "3:14",
+        "Avg Wait Stretcher": "7:25"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de Saint-Marc-des-Carrières",
+        "Postal Code": "G0A 4B0",
+        "Estimated Waiting Time": "01:14",
+        "People Waiting": "2",
+        "Total People in ER": "4",
+        "Occupancy Rate": "0%",
+        "Avg Wait Room": "01:41",
+        "Avg Wait Stretcher": "5:03"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de Saint-Raymond",
+        "Postal Code": "G3L 1W1",
+        "Estimated Waiting Time": "02:06",
+        "People Waiting": "3",
+        "Total People in ER": "13",
+        "Occupancy Rate": "100%",
+        "Avg Wait Room": "3:31",
+        "Avg Wait Stretcher": "9:01"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de Sainte-Agathe",
+        "Postal Code": "J8C 2B8",
+        "Estimated Waiting Time": "12:37",
+        "People Waiting": "23",
+        "Total People in ER": "48",
+        "Occupancy Rate": "128%",
+        "Avg Wait Room": "6:51",
+        "Avg Wait Stretcher": "18:57"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de Sainte-Anne-de-Beaupré",
+        "Postal Code": "G0A 1E0",
+        "Estimated Waiting Time": "02:14",
+        "People Waiting": "3",
+        "Total People in ER": "9",
+        "Occupancy Rate": "75%",
+        "Avg Wait Room": "4:30",
+        "Avg Wait Stretcher": "10:34"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de Trois-Pistoles",
+        "Postal Code": "G0L 4K0",
+        "Estimated Waiting Time": "01:03",
+        "People Waiting": "0",
+        "Total People in ER": "1",
+        "Occupancy Rate": "0%",
+        "Avg Wait Room": "3:47",
+        "Avg Wait Stretcher": "4:30"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de Témiscaming-Kipawa",
+        "Postal Code": "J0Z 3R0",
+        "Estimated Waiting Time": "currently not available",
+        "People Waiting": "0",
+        "Total People in ER": "0",
+        "Occupancy Rate": "0%",
+        "Avg Wait Room": "2:31",
+        "Avg Wait Stretcher": "00:00"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux de Ville-Marie",
+        "Postal Code": "J9V 1W8",
+        "Estimated Waiting Time": "01:26",
+        "People Waiting": "2",
+        "Total People in ER": "7",
+        "Occupancy Rate": "60%",
+        "Avg Wait Room": "4:23",
+        "Avg Wait Stretcher": "12:59"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux des Escoumins",
+        "Postal Code": "G0T 1K0",
+        "Estimated Waiting Time": "00:50",
+        "People Waiting": "0",
+        "Total People in ER": "2",
+        "Occupancy Rate": "67%",
+        "Avg Wait Room": "2:43",
+        "Avg Wait Stretcher": "2:16"
+    },
+    {
+        "Hospital Name": "Ensemble du Québec",
+        "Postal Code": "N/A",
+        "Estimated Waiting Time": "01:44",
+        "People Waiting": "1257",
+        "Total People in ER": "3666",
+        "Occupancy Rate": "102%",
+        "Avg Wait Room": "4:49",
+        "Avg Wait Stretcher": "18:05"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux des Sources",
+        "Postal Code": "J1T 1X6",
+        "Estimated Waiting Time": "05:09",
+        "People Waiting": "17",
+        "Total People in ER": "19",
+        "Occupancy Rate": "14%",
+        "Avg Wait Room": "4:18",
+        "Avg Wait Stretcher": "11:49"
+    },
+    {
+        "Hospital Name": "Centre multiservices de santé et de services sociaux du Haut-Saint-Maurice",
+        "Postal Code": "G9X 3C1",
+        "Estimated Waiting Time": "01:24",
+        "People Waiting": "1",
+        "Total People in ER": "3",
+        "Occupancy Rate": "29%",
+        "Avg Wait Room": "3:57",
+        "Avg Wait Stretcher": "11:23"
+    },
+    {
+        "Hospital Name": "CHSLD et Hôpital Paul-Gilbert",
+        "Postal Code": "G6X 1L6",
+        "Estimated Waiting Time": "currently not available",
+        "People Waiting": "0",
+        "Total People in ER": "0",
+        "Occupancy Rate": "not applicable",
+        "Avg Wait Room": "3:33",
+        "Avg Wait Stretcher": "00:00"
+    },
+    {
+        "Hospital Name": "CHU Sainte-Justine",
+        "Postal Code": "H3T 1C5",
+        "Estimated Waiting Time": "06:31",
+        "People Waiting": "42",
+        "Total People in ER": "83",
+        "Occupancy Rate": "125%",
+        "Avg Wait Room": "3:45",
+        "Avg Wait Stretcher": "7:37"
+    },
+    {
+        "Hospital Name": "CHUS - Hôpital Fleurimont",
+        "Postal Code": "J1H 5N4",
+        "Estimated Waiting Time": "04:09",
+        "People Waiting": "8",
+        "Total People in ER": "42",
+        "Occupancy Rate": "100%",
+        "Avg Wait Room": "7:23",
+        "Avg Wait Stretcher": "11:40"
+    },
+    {
+        "Hospital Name": "CHUS - Hôtel-Dieu de Sherbrooke",
+        "Postal Code": "J1G 2E8",
+        "Estimated Waiting Time": "05:19",
+        "People Waiting": "11",
+        "Total People in ER": "53",
+        "Occupancy Rate": "91%",
+        "Avg Wait Room": "6:25",
+        "Avg Wait Stretcher": "16:09"
+    },
+    {
+        "Hospital Name": "CLSC de Pohénégamook",
+        "Postal Code": "G0L 1J0",
+        "Estimated Waiting Time": "00:46",
+        "People Waiting": "0",
+        "Total People in ER": "1",
+        "Occupancy Rate": "0%",
+        "Avg Wait Room": "2:35",
+        "Avg Wait Stretcher": "7:57"
+    },
+    {
+        "Hospital Name": "CLSC et centre d'hébergement de la Petite-Nation",
+        "Postal Code": "J0V 1W0",
+        "Estimated Waiting Time": "currently not available",
+        "People Waiting": "0",
+        "Total People in ER": "0",
+        "Occupancy Rate": "0%",
+        "Avg Wait Room": "3:07",
+        "Avg Wait Stretcher": "4:03"
+    },
+    {
+        "Hospital Name": "CLSC et centre de services ambulatoires de Murdochville",
+        "Postal Code": "G0E 1W0",
+        "Estimated Waiting Time": "01:06",
+        "People Waiting": "0",
+        "Total People in ER": "1",
+        "Occupancy Rate": "0%",
+        "Avg Wait Room": "01:10",
+        "Avg Wait Stretcher": "00:00"
+    },
+    {
+        "Hospital Name": "CLSC et centre de services ambulatoires de Paspébiac",
+        "Postal Code": "G0C 2K0",
+        "Estimated Waiting Time": "00:58",
+        "People Waiting": "0",
+        "Total People in ER": "4",
+        "Occupancy Rate": "50%",
+        "Avg Wait Room": "2:42",
+        "Avg Wait Stretcher": "3:05"
+    },
+    {
+        "Hospital Name": "Ensemble du Québec",
+        "Postal Code": "N/A",
+        "Estimated Waiting Time": "01:44",
+        "People Waiting": "1257",
+        "Total People in ER": "3666",
+        "Occupancy Rate": "102%",
+        "Avg Wait Room": "4:49",
+        "Avg Wait Stretcher": "18:05"
+    },
+    {
+        "Hospital Name": "CLSC et hôpital Le Royer",
+        "Postal Code": "G5C 1P1",
+        "Estimated Waiting Time": "04:23",
+        "People Waiting": "9",
+        "Total People in ER": "19",
+        "Occupancy Rate": "90%",
+        "Avg Wait Room": "7:10",
+        "Avg Wait Stretcher": "12:32"
+    },
+    {
+        "Hospital Name": "Hôpital Anna-Laberge",
+        "Postal Code": "J6K 4W8",
+        "Estimated Waiting Time": "03:19",
+        "People Waiting": "4",
+        "Total People in ER": "57",
+        "Occupancy Rate": "106%",
+        "Avg Wait Room": "6:39",
+        "Avg Wait Stretcher": "24:19"
+    },
+    {
+        "Hospital Name": "Hôpital Barrie Memorial / Barrie Memorial Hospital",
+        "Postal Code": "J0S 1K0",
+        "Estimated Waiting Time": "03:59",
+        "People Waiting": "12",
+        "Total People in ER": "19",
+        "Occupancy Rate": "140%",
+        "Avg Wait Room": "4:51",
+        "Avg Wait Stretcher": "18:01"
+    },
+    {
+        "Hospital Name": "Hôpital Brome-Missisquoi-Perkins",
+        "Postal Code": "J2K 1K3",
+        "Estimated Waiting Time": "08:46",
+        "People Waiting": "22",
+        "Total People in ER": "36",
+        "Occupancy Rate": "88%",
+        "Avg Wait Room": "6:13",
+        "Avg Wait Stretcher": "15:21"
+    },
+    {
+        "Hospital Name": "Hôpital Charles-Le Moyne",
+        "Postal Code": "J4V 2H1",
+        "Estimated Waiting Time": "11:11",
+        "People Waiting": "51",
+        "Total People in ER": "106",
+        "Occupancy Rate": "119%",
+        "Avg Wait Room": "4:48",
+        "Avg Wait Stretcher": "18:01"
+    },
+    {
+        "Hospital Name": "Hôpital d'Alma",
+        "Postal Code": "G8B 5W3",
+        "Estimated Waiting Time": "05:55",
+        "People Waiting": "16",
+        "Total People in ER": "27",
+        "Occupancy Rate": "59%",
+        "Avg Wait Room": "3:14",
+        "Avg Wait Stretcher": "8:01"
+    },
+    {
+        "Hospital Name": "Hôpital d'Amos",
+        "Postal Code": "J9T 2S2",
+        "Estimated Waiting Time": "01:06",
+        "People Waiting": "1",
+        "Total People in ER": "8",
+        "Occupancy Rate": "57%",
+        "Avg Wait Room": "5:20",
+        "Avg Wait Stretcher": "12:13"
+    },
+    {
+        "Hospital Name": "Hôpital d'Amqui",
+        "Postal Code": "G5J 2K5",
+        "Estimated Waiting Time": "01:18",
+        "People Waiting": "2",
+        "Total People in ER": "6",
+        "Occupancy Rate": "67%",
+        "Avg Wait Room": "5:25",
+        "Avg Wait Stretcher": "11:42"
+    },
+    {
+        "Hospital Name": "Hôpital de Chandler",
+        "Postal Code": "G0C 1K0",
+        "Estimated Waiting Time": "00:59",
+        "People Waiting": "1",
+        "Total People in ER": "5",
+        "Occupancy Rate": "0%",
+        "Avg Wait Room": "3:18",
+        "Avg Wait Stretcher": "19:54"
+    },
+    {
+        "Hospital Name": "Hôpital de Chicoutimi",
+        "Postal Code": "G7H 5H6",
+        "Estimated Waiting Time": "06:21",
+        "People Waiting": "14",
+        "Total People in ER": "37",
+        "Occupancy Rate": "49%",
+        "Avg Wait Room": "3:21",
+        "Avg Wait Stretcher": "10:18"
+    },
+    {
+        "Hospital Name": "Ensemble du Québec",
+        "Postal Code": "N/A",
+        "Estimated Waiting Time": "01:44",
+        "People Waiting": "1257",
+        "Total People in ER": "3666",
+        "Occupancy Rate": "102%",
+        "Avg Wait Room": "4:49",
+        "Avg Wait Stretcher": "18:05"
+    },
+    {
+        "Hospital Name": "Hôpital de Dolbeau-Mistassini",
+        "Postal Code": "G8L 2R5",
+        "Estimated Waiting Time": "04:17",
+        "People Waiting": "12",
+        "Total People in ER": "19",
+        "Occupancy Rate": "60%",
+        "Avg Wait Room": "3:43",
+        "Avg Wait Stretcher": "11:28"
+    },
+    {
+        "Hospital Name": "Hôpital de Gaspé",
+        "Postal Code": "G4X 2W2",
+        "Estimated Waiting Time": "01:08",
+        "People Waiting": "1",
+        "Total People in ER": "7",
+        "Occupancy Rate": "67%",
+        "Avg Wait Room": "2:39",
+        "Avg Wait Stretcher": "7:23"
+    },
+    {
+        "Hospital Name": "Hôpital de Gatineau",
+        "Postal Code": "J8P 7H2",
+        "Estimated Waiting Time": "12:20",
+        "People Waiting": "19",
+        "Total People in ER": "48",
+        "Occupancy Rate": "107%",
+        "Avg Wait Room": "8:06",
+        "Avg Wait Stretcher": "24:15"
+    },
+    {
+        "Hospital Name": "Hôpital de Granby",
+        "Postal Code": "J2G 1T7",
+        "Estimated Waiting Time": "04:55",
+        "People Waiting": "8",
+        "Total People in ER": "33",
+        "Occupancy Rate": "65%",
+        "Avg Wait Room": "3:49",
+        "Avg Wait Stretcher": "11:18"
+    },
+    {
+        "Hospital Name": "Hôpital de Hull",
+        "Postal Code": "J8Y 1W7",
+        "Estimated Waiting Time": "11:12",
+        "People Waiting": "30",
+        "Total People in ER": "70",
+        "Occupancy Rate": "148%",
+        "Avg Wait Room": "6:21",
+        "Avg Wait Stretcher": "29:40"
+    },
+    {
+        "Hospital Name": "Hôpital de l'Archipel",
+        "Postal Code": "G4T 1R9",
+        "Estimated Waiting Time": "01:53",
+        "People Waiting": "4",
+        "Total People in ER": "9",
+        "Occupancy Rate": "50%",
+        "Avg Wait Room": "01:34",
+        "Avg Wait Stretcher": "6:59"
+    },
+    {
+        "Hospital Name": "Hôpital de l'Enfant-Jésus",
+        "Postal Code": "G1J 1Z4",
+        "Estimated Waiting Time": "04:17",
+        "People Waiting": "14",
+        "Total People in ER": "69",
+        "Occupancy Rate": "92%",
+        "Avg Wait Room": "2:38",
+        "Avg Wait Stretcher": "17:00"
+    },
+    {
+        "Hospital Name": "Hôpital de La Baie",
+        "Postal Code": "G7B 2Y6",
+        "Estimated Waiting Time": "02:29",
+        "People Waiting": "5",
+        "Total People in ER": "10",
+        "Occupancy Rate": "57%",
+        "Avg Wait Room": "4:45",
+        "Avg Wait Stretcher": "9:12"
+    },
+    {
+        "Hospital Name": "Hôpital de la Cité-de-la-Santé",
+        "Postal Code": "H7M 3L9",
+        "Estimated Waiting Time": "08:54",
+        "People Waiting": "26",
+        "Total People in ER": "112",
+        "Occupancy Rate": "127%",
+        "Avg Wait Room": "6:44",
+        "Avg Wait Stretcher": "23:57"
+    },
+    {
+        "Hospital Name": "Hôpital de Lachine",
+        "Postal Code": "H8S 3N5",
+        "Estimated Waiting Time": "05:08",
+        "People Waiting": "7",
+        "Total People in ER": "31",
+        "Occupancy Rate": "136%",
+        "Avg Wait Room": "5:12",
+        "Avg Wait Stretcher": "37:37"
+    },
+    {
+        "Hospital Name": "Ensemble du Québec",
+        "Postal Code": "N/A",
+        "Estimated Waiting Time": "01:44",
+        "People Waiting": "1257",
+        "Total People in ER": "3666",
+        "Occupancy Rate": "102%",
+        "Avg Wait Room": "4:49",
+        "Avg Wait Stretcher": "18:05"
+    },
+    {
+        "Hospital Name": "Hôpital de Lanaudière et Centre d'hébergement Parphilia-Ferland",
+        "Postal Code": "J6E 6J2",
+        "Estimated Waiting Time": "08:35",
+        "People Waiting": "34",
+        "Total People in ER": "70",
+        "Occupancy Rate": "67%",
+        "Avg Wait Room": "4:17",
+        "Avg Wait Stretcher": "13:10"
+    },
+    {
+        "Hospital Name": "Hôpital de LaSalle",
+        "Postal Code": "H8P 1C1",
+        "Estimated Waiting Time": "06:27",
+        "People Waiting": "12",
+        "Total People in ER": "34",
+        "Occupancy Rate": "147%",
+        "Avg Wait Room": "10:16",
+        "Avg Wait Stretcher": "28:55"
+    },
+    {
+        "Hospital Name": "Hôpital de Maniwaki",
+        "Postal Code": "J9E 2E7",
+        "Estimated Waiting Time": "03:07",
+        "People Waiting": "6",
+        "Total People in ER": "16",
+        "Occupancy Rate": "183%",
+        "Avg Wait Room": "01:54",
+        "Avg Wait Stretcher": "22:46"
+    },
+    {
+        "Hospital Name": "Hôpital de Matane",
+        "Postal Code": "G4W 2W5",
+        "Estimated Waiting Time": "00:55",
+        "People Waiting": "0",
+        "Total People in ER": "2",
+        "Occupancy Rate": "29%",
+        "Avg Wait Room": "4:29",
+        "Avg Wait Stretcher": "7:56"
+    },
+    {
+        "Hospital Name": "Hôpital de Mont-Laurier",
+        "Postal Code": "J9L 3G3",
+        "Estimated Waiting Time": "02:24",
+        "People Waiting": "3",
+        "Total People in ER": "13",
+        "Occupancy Rate": "200%",
+        "Avg Wait Room": "7:14",
+        "Avg Wait Stretcher": "34:42"
+    },
+    {
+        "Hospital Name": "Hôpital de Montmagny",
+        "Postal Code": "G5V 3R8",
+        "Estimated Waiting Time": "03:15",
+        "People Waiting": "12",
+        "Total People in ER": "17",
+        "Occupancy Rate": "50%",
+        "Avg Wait Room": "3:11",
+        "Avg Wait Stretcher": "18:10"
+    },
+    {
+        "Hospital Name": "Hôpital Notre-Dame-du-Lac",
+        "Postal Code": "G0L 1X0",
+        "Estimated Waiting Time": "02:14",
+        "People Waiting": "5",
+        "Total People in ER": "6",
+        "Occupancy Rate": "0%",
+        "Avg Wait Room": "3:11",
+        "Avg Wait Stretcher": "9:13"
+    },
+    {
+        "Hospital Name": "Hôpital de Rouyn-Noranda",
+        "Postal Code": "J9X 2B2",
+        "Estimated Waiting Time": "06:26",
+        "People Waiting": "19",
+        "Total People in ER": "27",
+        "Occupancy Rate": "138%",
+        "Avg Wait Room": "8:07",
+        "Avg Wait Stretcher": "15:02"
+    },
+    {
+        "Hospital Name": "Hôpital de Saint-Eustache",
+        "Postal Code": "J7R 5B1",
+        "Estimated Waiting Time": "10:35",
+        "People Waiting": "29",
+        "Total People in ER": "88",
+        "Occupancy Rate": "134%",
+        "Avg Wait Room": "8:10",
+        "Avg Wait Stretcher": "20:21"
+    },
+    {
+        "Hospital Name": "Hôpital de Saint-Georges",
+        "Postal Code": "G5Y 4T8",
+        "Estimated Waiting Time": "03:36",
+        "People Waiting": "7",
+        "Total People in ER": "21",
+        "Occupancy Rate": "48%",
+        "Avg Wait Room": "3:05",
+        "Avg Wait Stretcher": "11:55"
+    },
+    {
+        "Hospital Name": "Ensemble du Québec",
+        "Postal Code": "N/A",
+        "Estimated Waiting Time": "01:44",
+        "People Waiting": "1257",
+        "Total People in ER": "3666",
+        "Occupancy Rate": "102%",
+        "Avg Wait Room": "4:49",
+        "Avg Wait Stretcher": "18:05"
+    },
+    {
+        "Hospital Name": "Hôpital de Saint-Jérôme",
+        "Postal Code": "J7Z 5T3",
+        "Estimated Waiting Time": "12:34",
+        "People Waiting": "36",
+        "Total People in ER": "89",
+        "Occupancy Rate": "106%",
+        "Avg Wait Room": "6:58",
+        "Avg Wait Stretcher": "20:28"
+    },
+    {
+        "Hospital Name": "Hôpital de Thetford",
+        "Postal Code": "G6G 2V4",
+        "Estimated Waiting Time": "02:35",
+        "People Waiting": "5",
+        "Total People in ER": "21",
+        "Occupancy Rate": "90%",
+        "Avg Wait Room": "3:26",
+        "Avg Wait Stretcher": "12:34"
+    },
+    {
+        "Hospital Name": "Hôpital et centre de réadaptation en dépendance de Val-d'Or",
+        "Postal Code": "J9P 3Y1",
+        "Estimated Waiting Time": "09:06",
+        "People Waiting": "25",
+        "Total People in ER": "37",
+        "Occupancy Rate": "91%",
+        "Avg Wait Room": "8:21",
+        "Avg Wait Stretcher": "17:24"
+    },
+    {
+        "Hospital Name": "Hôpital de Verdun",
+        "Postal Code": "H4G 2A3",
+        "Estimated Waiting Time": "10:14",
+        "People Waiting": "23",
+        "Total People in ER": "54",
+        "Occupancy Rate": "100%",
+        "Avg Wait Room": "4:57",
+        "Avg Wait Stretcher": "22:09"
+    },
+    {
+        "Hospital Name": "Hôpital Douglas",
+        "Postal Code": "H4H 1R3",
+        "Estimated Waiting Time": "01:54",
+        "People Waiting": "1",
+        "Total People in ER": "9",
+        "Occupancy Rate": "100%",
+        "Avg Wait Room": "3:38",
+        "Avg Wait Stretcher": "19:59"
+    },
+    {
+        "Hospital Name": "Hôpital du Centre-de-la-Mauricie",
+        "Postal Code": "G9P 5K1",
+        "Estimated Waiting Time": "11:33",
+        "People Waiting": "18",
+        "Total People in ER": "36",
+        "Occupancy Rate": "95%",
+        "Avg Wait Room": "3:40",
+        "Avg Wait Stretcher": "7:40"
+    },
+    {
+        "Hospital Name": "Hôpital du Haut-Richelieu",
+        "Postal Code": "J3A 1B7",
+        "Estimated Waiting Time": "06:33",
+        "People Waiting": "25",
+        "Total People in ER": "68",
+        "Occupancy Rate": "89%",
+        "Avg Wait Room": "4:08",
+        "Avg Wait Stretcher": "23:36"
+    },
+    {
+        "Hospital Name": "Hôpital du Sacré-Cœur de Montréal",
+        "Postal Code": "H4J 1C5",
+        "Estimated Waiting Time": "11:36",
+        "People Waiting": "30",
+        "Total People in ER": "87",
+        "Occupancy Rate": "102%",
+        "Avg Wait Room": "6:06",
+        "Avg Wait Stretcher": "24:58"
+    },
+    {
+        "Hospital Name": "Hôpital du Saint-Sacrement",
+        "Postal Code": "G1S 4L8",
+        "Estimated Waiting Time": "01:52",
+        "People Waiting": "4",
+        "Total People in ER": "26",
+        "Occupancy Rate": "86%",
+        "Avg Wait Room": "4:51",
+        "Avg Wait Stretcher": "13:08"
+    },
+    {
+        "Hospital Name": "Hôpital du Suroît",
+        "Postal Code": "J6T 6C1",
+        "Estimated Waiting Time": "04:11",
+        "People Waiting": "11",
+        "Total People in ER": "62",
+        "Occupancy Rate": "144%",
+        "Avg Wait Room": "4:13",
+        "Avg Wait Stretcher": "25:04"
+    },
+    {
+        "Hospital Name": "Ensemble du Québec",
+        "Postal Code": "N/A",
+        "Estimated Waiting Time": "01:44",
+        "People Waiting": "1257",
+        "Total People in ER": "3666",
+        "Occupancy Rate": "102%",
+        "Avg Wait Room": "4:49",
+        "Avg Wait Stretcher": "18:05"
+    },
+    {
+        "Hospital Name": "Hôpital en santé mentale Albert-Prévost",
+        "Postal Code": "H4K 1B3",
+        "Estimated Waiting Time": "00:51",
+        "People Waiting": "0",
+        "Total People in ER": "13",
+        "Occupancy Rate": "133%",
+        "Avg Wait Room": "4:50",
+        "Avg Wait Stretcher": "27:13"
+    },
+    {
+        "Hospital Name": "Hôpital et centre d'hébergement de Roberval",
+        "Postal Code": "G8H 1B9",
+        "Estimated Waiting Time": "03:06",
+        "People Waiting": "6",
+        "Total People in ER": "11",
+        "Occupancy Rate": "54%",
+        "Avg Wait Room": "4:06",
+        "Avg Wait Stretcher": "8:36"
+    },
+    {
+        "Hospital Name": "Hôpital et centre de réadaptation de Jonquière",
+        "Postal Code": "G7X 7X2",
+        "Estimated Waiting Time": "03:59",
+        "People Waiting": "7",
+        "Total People in ER": "18",
+        "Occupancy Rate": "69%",
+        "Avg Wait Room": "5:37",
+        "Avg Wait Stretcher": "11:07"
+    },
+    {
+        "Hospital Name": "Hôpital et CHSLD de Papineau",
+        "Postal Code": "J8L 0C2",
+        "Estimated Waiting Time": "07:17",
+        "People Waiting": "11",
+        "Total People in ER": "23",
+        "Occupancy Rate": "100%",
+        "Avg Wait Room": "4:01",
+        "Avg Wait Stretcher": "24:14"
+    },
+    {
+        "Hospital Name": "Hôpital et CHSLD du Pontiac",
+        "Postal Code": "J0X 2Y0",
+        "Estimated Waiting Time": "01:09",
+        "People Waiting": "0",
+        "Total People in ER": "12",
+        "Occupancy Rate": "250%",
+        "Avg Wait Room": "4:48",
+        "Avg Wait Stretcher": "19:57"
+    },
+    {
+        "Hospital Name": "Hôpital et CHSLD Mémorial de Wakefield / Wakefield Memorial Hospital",
+        "Postal Code": "J0X 3G0",
+        "Estimated Waiting Time": "02:35",
+        "People Waiting": "6",
+        "Total People in ER": "11",
+        "Occupancy Rate": "25%",
+        "Avg Wait Room": "3:27",
+        "Avg Wait Stretcher": "37:35"
+    },
+    {
+        "Hospital Name": "Hôpital et CLSC de la Malbaie",
+        "Postal Code": "G5A 1T1",
+        "Estimated Waiting Time": "01:27",
+        "People Waiting": "2",
+        "Total People in ER": "5",
+        "Occupancy Rate": "22%",
+        "Avg Wait Room": "3:38",
+        "Avg Wait Stretcher": "16:35"
+    },
+    {
+        "Hospital Name": "Hôpital et CLSC de Sainte-Anne-des-Monts",
+        "Postal Code": "G4V 1X4",
+        "Estimated Waiting Time": "01:37",
+        "People Waiting": "2",
+        "Total People in ER": "6",
+        "Occupancy Rate": "17%",
+        "Avg Wait Room": "5:04",
+        "Avg Wait Stretcher": "20:36"
+    },
+    {
+        "Hospital Name": "Hôpital et CLSC de Sept-Îles",
+        "Postal Code": "G4R 3N7",
+        "Estimated Waiting Time": "06:30",
+        "People Waiting": "14",
+        "Total People in ER": "18",
+        "Occupancy Rate": "40%",
+        "Avg Wait Room": "6:55",
+        "Avg Wait Stretcher": "10:01"
+    },
+    {
+        "Hospital Name": "Hôpital et groupe de médecine de famille universitaire de Maria",
+        "Postal Code": "G0C 1Y0",
+        "Estimated Waiting Time": "01:55",
+        "People Waiting": "2",
+        "Total People in ER": "10",
+        "Occupancy Rate": "30%",
+        "Avg Wait Room": "3:12",
+        "Avg Wait Stretcher": "15:13"
+    },
+    {
+        "Hospital Name": "Ensemble du Québec",
+        "Postal Code": "N/A",
+        "Estimated Waiting Time": "01:44",
+        "People Waiting": "1257",
+        "Total People in ER": "3666",
+        "Occupancy Rate": "102%",
+        "Avg Wait Room": "4:49",
+        "Avg Wait Stretcher": "18:05"
+    },
+    {
+        "Hospital Name": "Hôpital Fleury",
+        "Postal Code": "H2B 1K3",
+        "Estimated Waiting Time": "07:10",
+        "People Waiting": "14",
+        "Total People in ER": "39",
+        "Occupancy Rate": "128%",
+        "Avg Wait Room": "5:23",
+        "Avg Wait Stretcher": "26:49"
+    },
+    {
+        "Hospital Name": "Hôpital général de Montréal",
+        "Postal Code": "H3G 1A4",
+        "Estimated Waiting Time": "01:36",
+        "People Waiting": "1",
+        "Total People in ER": "69",
+        "Occupancy Rate": "177%",
+        "Avg Wait Room": "4:54",
+        "Avg Wait Stretcher": "27:41"
+    },
+    {
+        "Hospital Name": "Hôpital général du Lakeshore",
+        "Postal Code": "H9R 2Y2",
+        "Estimated Waiting Time": "04:53",
+        "People Waiting": "7",
+        "Total People in ER": "72",
+        "Occupancy Rate": "171%",
+        "Avg Wait Room": "8:03",
+        "Avg Wait Stretcher": "27:15"
+    },
+    {
+        "Hospital Name": "Hôpital général juif",
+        "Postal Code": "H3T 1E2",
+        "Estimated Waiting Time": "05:42",
+        "People Waiting": "21",
+        "Total People in ER": "116",
+        "Occupancy Rate": "175%",
+        "Avg Wait Room": "3:43",
+        "Avg Wait Stretcher": "19:51"
+    },
+    {
+        "Hospital Name": "Hôpital Honoré-Mercier",
+        "Postal Code": "J2S 4Y8",
+        "Estimated Waiting Time": "05:09",
+        "People Waiting": "14",
+        "Total People in ER": "51",
+        "Occupancy Rate": "127%",
+        "Avg Wait Room": "6:24",
+        "Avg Wait Stretcher": "21:12"
+    },
+    {
+        "Hospital Name": "Hôpital Jean-Talon",
+        "Postal Code": "H2E 1S6",
+        "Estimated Waiting Time": "08:07",
+        "People Waiting": "20",
+        "Total People in ER": "44",
+        "Occupancy Rate": "82%",
+        "Avg Wait Room": "4:40",
+        "Avg Wait Stretcher": "19:27"
+    },
+    {
+        "Hospital Name": "Hôpital Maisonneuve-Rosemont",
+        "Postal Code": "H1T 2M4",
+        "Estimated Waiting Time": "05:04",
+        "People Waiting": "15",
+        "Total People in ER": "76",
+        "Occupancy Rate": "102%",
+        "Avg Wait Room": "3:49",
+        "Avg Wait Stretcher": "26:21"
+    },
+    {
+        "Hospital Name": "Hôpital Notre-Dame",
+        "Postal Code": "H2L 4M1",
+        "Estimated Waiting Time": "05:03",
+        "People Waiting": "11",
+        "Total People in ER": "55",
+        "Occupancy Rate": "97%",
+        "Avg Wait Room": "6:31",
+        "Avg Wait Stretcher": "23:17"
+    },
+    {
+        "Hospital Name": "Hôpital Notre-Dame-de-Fatima",
+        "Postal Code": "G0R 1Z0",
+        "Estimated Waiting Time": "03:13",
+        "People Waiting": "7",
+        "Total People in ER": "14",
+        "Occupancy Rate": "86%",
+        "Avg Wait Room": "5:08",
+        "Avg Wait Stretcher": "9:38"
+    },
+    {
+        "Hospital Name": "Hôpital Pierre-Boucher",
+        "Postal Code": "J4M 2A5",
+        "Estimated Waiting Time": "06:37",
+        "People Waiting": "16",
+        "Total People in ER": "68",
+        "Occupancy Rate": "98%",
+        "Avg Wait Room": "7:12",
+        "Avg Wait Stretcher": "18:24"
+    },
+    {
+        "Hospital Name": "Ensemble du Québec",
+        "Postal Code": "N/A",
+        "Estimated Waiting Time": "01:44",
+        "People Waiting": "1257",
+        "Total People in ER": "3666",
+        "Occupancy Rate": "102%",
+        "Avg Wait Room": "4:49",
+        "Avg Wait Stretcher": "18:05"
+    },
+    {
+        "Hospital Name": "Hôpital Pierre-Le Gardeur",
+        "Postal Code": "J6V 2H2",
+        "Estimated Waiting Time": "12:00",
+        "People Waiting": "40",
+        "Total People in ER": "92",
+        "Occupancy Rate": "91%",
+        "Avg Wait Room": "3:25",
+        "Avg Wait Stretcher": "18:25"
+    },
+    {
+        "Hospital Name": "Hôpital Royal Victoria",
+        "Postal Code": "H4A 3J1",
+        "Estimated Waiting Time": "10:46",
+        "People Waiting": "45",
+        "Total People in ER": "110",
+        "Occupancy Rate": "185%",
+        "Avg Wait Room": "6:18",
+        "Avg Wait Stretcher": "29:46"
+    },
+    {
+        "Hospital Name": "Hôpital régional de Rimouski",
+        "Postal Code": "G5L 5T1",
+        "Estimated Waiting Time": "07:19",
+        "People Waiting": "18",
+        "Total People in ER": "36",
+        "Occupancy Rate": "117%",
+        "Avg Wait Room": "3:52",
+        "Avg Wait Stretcher": "12:30"
+    },
+    {
+        "Hospital Name": "Hôpital Saint-François D'Assise",
+        "Postal Code": "G1L 3L5",
+        "Estimated Waiting Time": "05:36",
+        "People Waiting": "13",
+        "Total People in ER": "44",
+        "Occupancy Rate": "71%",
+        "Avg Wait Room": "4:22",
+        "Avg Wait Stretcher": "20:33"
+    },
+    {
+        "Hospital Name": "Hôpital Sainte-Croix",
+        "Postal Code": "J2B 1C1",
+        "Estimated Waiting Time": "08:10",
+        "People Waiting": "26",
+        "Total People in ER": "43",
+        "Occupancy Rate": "121%",
+        "Avg Wait Room": "4:45",
+        "Avg Wait Stretcher": "12:04"
+    },
+    {
+        "Hospital Name": "Hôpital Santa Cabrini",
+        "Postal Code": "H1T 1P7",
+        "Estimated Waiting Time": "05:24",
+        "People Waiting": "12",
+        "Total People in ER": "59",
+        "Occupancy Rate": "118%",
+        "Avg Wait Room": "5:09",
+        "Avg Wait Stretcher": "33:30"
+    },
+    {
+        "Hospital Name": "Hôtel-Dieu d'Arthabaska",
+        "Postal Code": "G6P 6N2",
+        "Estimated Waiting Time": "05:20",
+        "People Waiting": "9",
+        "Total People in ER": "25",
+        "Occupancy Rate": "94%",
+        "Avg Wait Room": "5:33",
+        "Avg Wait Stretcher": "7:54"
+    },
+    {
+        "Hospital Name": "Hôtel-Dieu de Lévis",
+        "Postal Code": "G6V 3Z1",
+        "Estimated Waiting Time": "02:04",
+        "People Waiting": "9",
+        "Total People in ER": "60",
+        "Occupancy Rate": "105%",
+        "Avg Wait Room": "3:22",
+        "Avg Wait Stretcher": "20:31"
+    },
+    {
+        "Hospital Name": "Hôtel-Dieu de Sorel",
+        "Postal Code": "J3P 1N5",
+        "Estimated Waiting Time": "06:56",
+        "People Waiting": "18",
+        "Total People in ER": "40",
+        "Occupancy Rate": "135%",
+        "Avg Wait Room": "4:01",
+        "Avg Wait Stretcher": "15:42"
+    },
+    {
+        "Hospital Name": "Institut de cardiologie de Montréal",
+        "Postal Code": "H1T 1C8",
+        "Estimated Waiting Time": "04:39",
+        "People Waiting": "12",
+        "Total People in ER": "25",
+        "Occupancy Rate": "59%",
+        "Avg Wait Room": "3:03",
+        "Avg Wait Stretcher": "23:23"
+    },
+    {
+        "Hospital Name": "Ensemble du Québec",
+        "Postal Code": "N/A",
+        "Estimated Waiting Time": "01:44",
+        "People Waiting": "1257",
+        "Total People in ER": "3666",
+        "Occupancy Rate": "102%",
+        "Avg Wait Room": "4:49",
+        "Avg Wait Stretcher": "18:05"
+    },
+    {
+        "Hospital Name": "Institut universitaire de cardiologie et de pneumologie de Québec",
+        "Postal Code": "G1V 4G5",
+        "Estimated Waiting Time": "02:15",
+        "People Waiting": "4",
+        "Total People in ER": "22",
+        "Occupancy Rate": "110%",
+        "Avg Wait Room": "4:04",
+        "Avg Wait Stretcher": "13:02"
+    },
+    {
+        "Hospital Name": "Hôpital de soins psychiatriques de l'Est-de-Montréal",
+        "Postal Code": "H1N 3M5",
+        "Estimated Waiting Time": "currently not available",
+        "People Waiting": "0",
+        "Total People in ER": "13",
+        "Occupancy Rate": "108%",
+        "Avg Wait Room": "5:38",
+        "Avg Wait Stretcher": "23:27"
+    },
+    {
+        "Hospital Name": "L'Hôpital de Montréal pour enfants",
+        "Postal Code": "H4A 3J1",
+        "Estimated Waiting Time": "07:36",
+        "People Waiting": "51",
+        "Total People in ER": "107",
+        "Occupancy Rate": "200%",
+        "Avg Wait Room": "6:15",
+        "Avg Wait Stretcher": "10:11"
+    },
+    {
+        "Hospital Name": "L'Hôtel-Dieu de Québec",
+        "Postal Code": "G1R 2J6",
+        "Estimated Waiting Time": "04:05",
+        "People Waiting": "5",
+        "Total People in ER": "20",
+        "Occupancy Rate": "100%",
+        "Avg Wait Room": "3:49",
+        "Avg Wait Stretcher": "12:51"
+    },
+    {
+        "Hospital Name": "Pavillon Sainte-Marie",
+        "Postal Code": "G8Z 3R9",
+        "Estimated Waiting Time": "07:54",
+        "People Waiting": "21",
+        "Total People in ER": "66",
+        "Occupancy Rate": "102%",
+        "Avg Wait Room": "5:07",
+        "Avg Wait Stretcher": "19:25"
+    },
+    {
+        "Hospital Name": "Ensemble du Québec",
+        "Postal Code": "N/A",
+        "Estimated Waiting Time": "01:44",
+        "People Waiting": "1257",
+        "Total People in ER": "3666",
+        "Occupancy Rate": "102%",
+        "Avg Wait Room": "4:49",
+        "Avg Wait Stretcher": "18:05"
+    }
+]
