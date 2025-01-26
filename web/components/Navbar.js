@@ -36,9 +36,9 @@ export default function Navbar() {
     <nav className="bg-logo_bg p-4 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
         <Image
-          src="/logo.svg"
-          width={50}
-          height={50}
+          src="/logo.png"
+          width={100}
+          height={100}
           alt="Picture of the author"
         />
         <Link href="/" className="text-white text-2xl font-bold">
