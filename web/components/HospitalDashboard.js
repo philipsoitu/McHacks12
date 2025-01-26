@@ -12,7 +12,7 @@ export default function HospitalDashboard({ hospital }) {
         </div>
       </div>
       <div>
-        <PatientList hospitalId={hospital.id} />
+        {/* <PatientList hospitalId={hospital.id} /> */}
       </div>
     </div>
   )
